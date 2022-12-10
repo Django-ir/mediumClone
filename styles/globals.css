@@ -1,9 +1,16 @@
+@font-face {
+  font-family: "BYekan";
+  src: url("../public/fonts/BYekan.woff");
+  src: url("../public/fonts/Yekan.woff2");
+  src: url("../public/fonts/BYekan.ttf");
+  font-weight: 400;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: BYekan, sans-serif;
 }
 
 a {
